@@ -2,15 +2,16 @@
               Mise en page de mon CV
 \*---------------------------------------------*/
 
-/* Image de fond */
+.conteneur {
+    display:flex;
 
-body{
-    background: url(sand.jpg) fixed;
 }
 
 /* entete de la page */
 
 header{
+    width: 100%;
+    background: url(images/skulls.png)repeat fixed;
 	  font: 1.5em "liberation Serif",serif;
 	  color: rgb(17,107,138);
     text-align: center;
@@ -20,14 +21,14 @@ header{
 /* Corps de la page */
 
 main {
-  display : flex;
+    background: url("images/symphony.png") repeat fixed;
 }
 
-.paragraphe{
-  width: 50%;
+/*.paragraphe{
+  width: 20%;
   margin: auto;
 }
-
+*/
 h2 {
   text-align: center;
   text-decoration: underline;
@@ -47,6 +48,7 @@ li {
 /* Pied de page */
 
 footer{
+    background: url("images/wov.png")repeat fixed;
     text-align: center;
     font: 0.8em "liberation Serif",serif;
 }

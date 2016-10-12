@@ -3,8 +3,12 @@
 \*---------------------------------------------*/
 
 .conteneur {
-    display:flex;
-
+    width: 100%;
+    max-width: 960px;
+    padding : 10px 10px 10px 10px;
+    margin : 15px 15px 15px 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* entete de la page */
@@ -18,17 +22,25 @@ header{
     text-shadow: 3px 3px 3px rgb(99,124,138);
 }
 
+.titre{
+  margin: auto;
+}
+
 /* Corps de la page */
 
 main {
     background: url("images/symphony.png") repeat fixed;
 }
 
-/*.paragraphe{
-  width: 20%;
-  margin: auto;
+.paragraphe{
+  width: 33%;
+  padding: 10px 10px 10px 10px;
 }
-*/
+
+.justifie{
+  text-align: justify;
+}
+
 h2 {
   text-align: center;
   text-decoration: underline;
@@ -49,9 +61,14 @@ li {
 
 footer{
     background: url("images/wov.png")repeat fixed;
+  }
+
+.coordonnee{
     text-align: center;
-    font: 0.8em "liberation Serif",serif;
+    font: 1em "liberation Serif",serif;
+    margin: auto;
 }
+
 
 /* Personalisation des liens */
 
